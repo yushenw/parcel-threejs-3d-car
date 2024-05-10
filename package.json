@@ -1,0 +1,26 @@
+{
+  "name": "parcel-threejs-3d-car",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "A 3D car model application example using Parcel and Three.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "dev": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/config-default": "^2.12.0",
+    "@tweenjs/tween.js": "^23.1.1",
+    "lil-gui": "^0.19.2",
+    "three": "^0.164.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-raw": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}
